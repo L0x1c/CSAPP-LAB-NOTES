@@ -56,3 +56,30 @@ int main()
 可以看到通过eax来改变了内存的内容，导致了内容改变，这是课上讲义上的图比较直观:  
 ![6.png](https://i.loli.net/2020/12/14/7RwCM6yrqWYd8fz.png)  
 可以看到我们在2 3的时候改变了3.14的值，在6的时候修改了该程序的某些状态导致了程序的崩溃，它用于维持程序运行，记录已经分配的内存  
+## Great Reality 3：There's more to performance than asymptotic complexity
+我们需要知道系统到底是如何运行的，是什么让它运行很好，以及是什么让它运行不好
+```
+//first:
+void copyij(int src[2048][2048],
+            int dst[2048][2048])
+{
+  int i,j;
+  for (i = 0; i < 2048; i++)
+    for (j = 0; j < 2048; j++)
+      dst[i][j] = src[i][j];
+}
+//second:
+void copyji(int src[2048][2048],
+            int dst[2048][2048])
+{
+  int i,j;
+  for (j = 0; j < 2048; j++)
+    for (i = 0; i < 2048; i++)
+      dst[i][j] = src[i][j];
+}
+```
+代码的意思和最后的结果是一样的，但是代码一运行速度为4.3ms，而代码二运行速度为81.8ms  
+![7.png](https://i.loli.net/2020/12/14/e3ARka2Pdr8LivT.png)  
+这和内存层次结构中的缓存有关，内存访问连续与不连续  
+个人看法:  
+剩下的就是课程的要求一些的啦！就没得了！感觉很有意思这个课！第一次有这种想把这些都看完以及Lab都做了的冲动！
