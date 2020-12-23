@@ -6,14 +6,14 @@
 
 LAB网址：http://csapp.cs.cmu.edu/3e/labs.html
 
-![2.png](DataLab/MrIXPoEzCtjODks.png)
+![1.png](https://i.loli.net/2020/12/23/TKhGwYL9QHMFnSe.png) 
 
 注意的问题以及使用的方法：
 
 - make后如果报错没有libc-header-start.h，安装 gcc-multlib即可
 - 编译后的fshow可以查看浮点数
 
-![1.png](Untitled/tOMKiIqjXZ4s6P3.png)
+![2.png](https://i.loli.net/2020/12/23/SXfWKt47pxMYrNd.png)
 
 可以查看我们的sign exp frac从而表示这个十六进制数字代表什么浮点数
 
@@ -29,7 +29,7 @@ bitXor -  x^y using only ~ and &
 
 异或只能用与非来表示，我们可以看一下位级远算表：
 
-![3.png](DataLab/uKAVqN21zQcOwjr.png)
+![3.png](https://i.loli.net/2020/12/23/l9I6uEVZCY8D4Ob.png) 
 
 因为A^B = ~(A&B)&(A|B) ------> A|B = ~(~A&~B) 所以 A^B = ~(A&B)&~(~A&~B)
 
@@ -296,4 +296,4 @@ unsigned floatPower2(int x) {
 
 ### 成果图：
 
-![4.png](DataLab/uYs7BN4WeaMxAZU.png)
+![4.png](https://i.loli.net/2020/12/23/uYs7BN4WeaMxAZU.png)
