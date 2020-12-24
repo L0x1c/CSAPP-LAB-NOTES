@@ -21,6 +21,9 @@ LAB网址：http://csapp.cs.cmu.edu/3e/labs.html
 - dlc -e 输出我们每个函数所使用的运算符的个数
 - driver.pl是功能btest和dlc的结合体
 
+作为mac的用户，自己看了一下为什么mac不可以make的原因在 -m32这个位置修改一下即可 
+![6.png](https://i.loli.net/2020/12/24/sufNeyUZdHwhBal.jpg)
+
 ## lab代码
 
 ### bitXor
@@ -295,5 +298,4 @@ unsigned floatPower2(int x) {
 ```
 
 ### 成果图：
-
-![4.png](https://i.loli.net/2020/12/23/uYs7BN4WeaMxAZU.png)
+![5.png](https://i.loli.net/2020/12/24/YEt2isOr6vkzDHu.jpg)
