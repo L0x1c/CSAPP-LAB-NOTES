@@ -2,7 +2,7 @@
 
 ## datalab简介
 
-因为自己看完了csapp的第一二章和cmu的视频嘛，来做一下datalab，写一下笔记
+因为自己看完了csapp的第一二章和cmu的视频嘛，来做一下datalab，写一下笔记 
 
 LAB网址：http://csapp.cs.cmu.edu/3e/labs.html
 
