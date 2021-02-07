@@ -678,6 +678,7 @@ signed __int64 __fastcall fun7(__int64 a1, int a2)
 
 所以满足的只有0x16与0x14
 
+
 所以第七关是：
 
 ```
